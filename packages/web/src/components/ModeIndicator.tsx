@@ -18,7 +18,7 @@ const DOT: Record<ConnStatus, string> = {
 
 const LABEL: Record<ConnStatus, string> = {
   loading:      "…",
-  connected:    "connected",
+  connected:    "online",
   disconnected: "disconnected",
   "auth-failed":"auth failed",
 };
