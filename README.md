@@ -50,8 +50,8 @@ vi-agent connects outbound to the relay. The dashboard also connects outbound. N
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/JozzyAI/Project_Interface.git
-cd Project_Interface
+git clone https://github.com/JozzyAI/Vibe_Interface.git
+cd Vibe_Interface
 ```
 
 Install dashboard dependencies:
@@ -411,7 +411,7 @@ Confirm: `fly volumes list --app <app>`.
 ## Repo structure
 
 ```
-Project_Interface/
+Vibe_Interface/
 ├── bridges/
 │   └── vi-agent/          Python daemon — runs on agent machines
 ├── docs/
